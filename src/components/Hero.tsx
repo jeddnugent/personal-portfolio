@@ -4,7 +4,7 @@ function Hero() {
 	return (
 		<>
 			<div className="hero container">
-				<img className="hero__img" src="/headshot.jpeg" alt="profile Picture" />
+				<img className="hero__img" src="/headshot.jpeg" alt="Profile Picture Headshot" />
 				<h2 className="hero__subtitle">Hi, I'm Jedd 👋</h2>
 				<h1 className="hero__title">Software Developer</h1>
 				<p className="hero__desc">A passionate <strong>Software Developer</strong> with experience working in <strong>front-end mobile app development </strong>
