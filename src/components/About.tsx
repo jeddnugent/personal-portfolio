@@ -6,7 +6,7 @@ function About() {
 			<div className="about container section">
 				<div className="about__content">
 					<h2 className="about__title">About</h2>
-					<p className="about__desc">Software Engineer with 2 years experience in mobile app development with a BSc of Computer Science.</p>
+					<p className="about__desc">Hello there! My name is Jedd. I am a Software Developer with 2 years experience in mobile app development with a BSc of Computer Science.</p>
 					<p className="about__desc">Returning from an extended backpacking trip throughout Europe.</p>
 					<p className="about__desc">Experienced in developing mobile applications for iOS and Android. Currently working in React TypeScript building Full Stack Web solutions. Highly adaptable with an eagerness to learn new technologies, languages and frameworks to produce the best products possible.</p>
 					<hr className="about__hr" />
