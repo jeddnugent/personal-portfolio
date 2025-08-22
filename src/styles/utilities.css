@@ -1,26 +1,20 @@
-/* @media (min-width: 475px) {
+/* xsmall */
+/* @media (min-width: 475px) {} */
 
-}
+/* small */
+/* @media (min-width: 640px) {} */
 
-@media (min-width: 640px) {
+/* medium */
+/* @media (min-width: 768px) {} */
 
-}
+/* large */
+/* @media (min-width: 1024px) {} */
 
-@media (min-width: 768px) {
+/* xlarge */
+/* @media (min-width: 1290px) {} */
 
-}
-
-@media (min-width: 1024px) {
-
-}
-
-@media (min-width: 1290px) {
-
-}
-
-@media (min-width: 1536px) {
-
-} */
+/* 2xlarge */
+/* @media (min-width: 1536px) {} */
 
 
 
