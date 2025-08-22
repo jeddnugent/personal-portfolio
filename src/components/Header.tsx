@@ -1,4 +1,4 @@
-import "../styles/Header.css"
+import "../styles/Header.css";
 import SunnyIcon from '@mui/icons-material/Sunny';
 import MenuIcon from '@mui/icons-material/Menu';
 
