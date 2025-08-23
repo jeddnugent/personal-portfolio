@@ -24,7 +24,7 @@ function Header() {
 							</button>
 						</li>
 						<li>
-							<a className="header__resume btn" href="#">Resume</a>
+							<a className="header__resume btn" href="/Jedd_Nugent_Resume.pdf" target="_blank">Resume</a>
 						</li>
 					</ul>
 					<button className="header__bars">
