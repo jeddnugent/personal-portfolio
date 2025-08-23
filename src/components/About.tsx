@@ -3,7 +3,7 @@ import "../styles/components/About.css";
 function About() {
 	return (
 		<>
-			<div className="about container section">
+			<div id="about" className="about container section">
 				<div className="about__content">
 					<h2 className="about__title">About</h2>
 					<p className="about__desc">Hello there! My name is Jedd. I am a Software Developer based in Melborune, Australia with 2 years experience in mobile app development and currently working as a freelance web developer. I also have a BSc of Computer Science.</p>
