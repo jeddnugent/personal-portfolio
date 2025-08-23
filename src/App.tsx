@@ -1,4 +1,5 @@
 import About from './components/About';
+import Contact from './components/Contact';
 import Featured from './components/Featured';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <About />
       <Featured />
+      <Contact />
     </>
   );
 }
