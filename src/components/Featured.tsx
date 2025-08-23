@@ -4,7 +4,7 @@ import "../styles/components/Featured.css";
 function Featured() {
 	return (
 		<>
-			<div className="featured container section">
+			<div id="featured" className="featured container section">
 				<h3 className="featured__subtitle">Featured Project</h3>
 				<div className='featured__title-wrapper'>
 					<h2 className="featured__title">SMI Food Journal</h2>
