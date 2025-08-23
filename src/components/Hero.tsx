@@ -9,7 +9,7 @@ function Hero() {
 				<h1 className="hero__title">Software Developer</h1>
 				<p className="hero__desc">A passionate <strong>Software Developer</strong> with experience working in <strong>front-end mobile app development </strong>
 					as well as <strong>Front-end and Full Stack Websites/Applications</strong></p>
-				<a className="hero__btn btn" href="#">React out</a>
+				<a className="hero__btn btn" href="mailto:jeddnugent@gmail.com" target="_blank">React out</a>
 			</div>
 		</>
 	);

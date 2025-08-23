@@ -6,9 +6,9 @@ function About() {
 			<div className="about container section">
 				<div className="about__content">
 					<h2 className="about__title">About</h2>
-					<p className="about__desc">Hello there! My name is Jedd. I am a Software Developer with 2 years experience in mobile app development with a BSc of Computer Science.</p>
-					<p className="about__desc">Returning from an extended backpacking trip throughout Europe.</p>
-					<p className="about__desc">Experienced in developing mobile applications for iOS and Android. Currently working in React TypeScript building Full Stack Web solutions. Highly adaptable with an eagerness to learn new technologies, languages and frameworks to produce the best products possible.</p>
+					<p className="about__desc">Hello there! My name is Jedd. I am a Software Developer based in Melborune, Australia with 2 years experience in mobile app development and currently working as a freelance web developer. I also have a BSc of Computer Science.</p>
+					<p className="about__desc">After returning from an extended backpacking trip throughout Europe last year I am looking for new oppitunities, where that be front-end / full stack based or something completely new, I am always excited to learn and tackle new challanges.</p>
+					<p className="about__desc">I have developed new features for clients in cross platform C# mobile apps as well as native iOS and Android, I have introduced and implemented testing methodologies, trained up interns, identified and resolved bugs and collaborated within a team to meet project deadlines. I am a fast learner and passionate people person who will do all I can to hit the ground running in any oppitunity that comes my way.</p>
 					<hr className="about__hr" />
 					<h3 className="about__subtitle">Technologies</h3>
 					<div className="about__ul-container">
