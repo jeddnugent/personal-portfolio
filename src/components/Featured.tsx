@@ -8,7 +8,7 @@ function Featured() {
 				<h3 className="featured__subtitle">Featured Project</h3>
 				<div className='featured__title-wrapper'>
 					<h2 className="featured__title">SMI Food Journal</h2>
-					<a className='featured__link'>
+					<a className='featured__link' href='https://smi-food-journal.vercel.app/login-signup' target="_blank">
 						<LinkIcon />
 					</a>
 				</div>
