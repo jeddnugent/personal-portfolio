@@ -13,7 +13,7 @@ function Featured() {
 					</a>
 				</div>
 				<p className="featured__desc">
-					SMI Food Journal is a full stack prototype created for Successful Minds Institute.
+					SMI Food Journal is a full stack project created for Successful Minds Institute.
 					The purpose of the journal is to allow clients of SMI to track each meal they eat over the course of a week.
 					After each meal they will answer a series of prompts regarding their mood and the enviroment around the meal.
 					This will then be accessed by practitioners on a subsequent consultation. The information gained by these surveys will be help inform futher advice and treatment from the practitioners regarding the clients weight loss journey.
