@@ -3,8 +3,11 @@ import "../styles/components/MobileHeader.css";
 import SunnyIcon from '@mui/icons-material/Sunny';
 import MenuIcon from '@mui/icons-material/Menu';
 import { useState } from "react";
-
-function Header() {
+import type { Dispatch, SetStateAction } from "react";
+function Header(props: {
+	isLightMode: boolean;
+	setLightMode: Dispatch<SetStateAction<boolean>>;
+}) {
 	const [isMobileMenuVisable, setMobileMenuVisable] = useState(false);
 
 	return (
@@ -23,7 +26,7 @@ function Header() {
 						</li>
 						<li className="header__line"></li>
 						<li>
-							<button className="header__sun">
+							<button className="header__sun" onClick={() => props.setLightMode(!props.isLightMode)}>
 								<SunnyIcon />
 							</button>
 						</li>
@@ -50,7 +53,7 @@ function Header() {
 						</li>
 						<li className="mobile-nav__link-line"></li>
 						<li>
-							<button className="mobile-nav__sun">
+							<button className="mobile-nav__sun" onClick={() => props.setLightMode(!props.isLightMode)}>
 								<SunnyIcon />
 							</button>
 						</li>

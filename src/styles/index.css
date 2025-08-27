@@ -32,6 +32,14 @@
 	--size-10xl: 10rem;
 }
 
+.lightMode {
+	--clr-light: #070a13;
+	--clr-dark: #ffffff;
+	--clr-slate400: oklch(27.9% 0.041 260.031);
+	--clr-slate600: oklch(27.9% 0.041 260.031);
+	--clr-slate800: oklch(27.9% 0.041 260.031);
+}
+
 html {
 	scroll-behavior: smooth;
 }
