@@ -40,6 +40,21 @@
 	font-size: var(--size-sm);
 }
 
+.hero__social-stack {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.hero__social-stack__icon {
+	color: var(--clr-slate400);
+	transition: color 0.3s;
+	font-size: var(--size-2xl) !important;
+}
+
+.hero__social-stack__icon:hover {
+	color: var(--clr-yellow);
+}
+
 /* xsmall */
 @media (min-width: 475px) {
 	.hero {
@@ -95,6 +110,10 @@
 
 	.hero__btn {
 		font-size: var(--size-lg);
+	}
+
+	.hero__social-stack__icon {
+		font-size: var(--size-4xl) !important;
 	}
 }
 
