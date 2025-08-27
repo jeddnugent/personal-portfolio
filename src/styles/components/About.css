@@ -18,7 +18,7 @@
 .about__desc {
 	max-width: 60ch;
 	font-size: var(--size-sm);
-	color: var(--clr-slate600);
+	color: var(--clr-slate400);
 }
 
 .about__hr {
@@ -27,7 +27,7 @@
 
 .about__subtitle {
 	font-size: var(--size-sm);
-	color: var(--clr-slate400);
+	color: var(--clr-slate200);
 }
 
 .about__ul {
@@ -41,7 +41,7 @@
 
 .about__ul>li {
 	font-size: var(--size-sm);
-	color: var(--clr-slate600);
+	color: var(--clr-slate400);
 }
 
 .about__ul>li::before {
