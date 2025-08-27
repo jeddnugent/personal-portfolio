@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import About from './components/About';
 import Contact from './components/Contact';
 import Featured from './components/Featured';
@@ -6,16 +7,22 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import './styles/App.css';
 
+
 function App() {
+  const [isLightMode, setLightMode] = useState(false);
+
 
   return (
     <>
-      <Header />
-      <Hero />
-      <About />
-      <Featured />
-      <Contact />
-      <Footer />
+      <body className={isLightMode ? 'lightMode' : ""}>
+        <Header isLightMode={isLightMode} setLightMode={setLightMode} />
+        <Hero />
+        <About />
+        <Featured />
+        <Contact />
+        <Footer />
+      </body>
+
     </>
   );
 }
