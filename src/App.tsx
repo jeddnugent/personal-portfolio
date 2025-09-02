@@ -11,7 +11,6 @@ import './styles/App.css';
 function App() {
   const [isLightMode, setLightMode] = useState(false);
 
-
   return (
     <>
       <body className={isLightMode ? 'lightMode' : ""}>
@@ -22,7 +21,6 @@ function App() {
         <Contact />
         <Footer />
       </body>
-
     </>
   );
 }
