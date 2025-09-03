@@ -13,7 +13,7 @@ function Hero() {
 				viewport={{ once: true, amount: 0.3 }}
 			>
 				<div className="hero container">
-					<img className="hero__img" src="/headshot.jpeg" alt="Profile Picture Headshot" />
+					<img className="hero__img" src="src/assets/headshot.jpeg" alt="Profile Picture Headshot" />
 					<h2 className="hero__subtitle">Hi, I'm Jedd 👋</h2>
 					<h1 className="hero__title">Software Developer</h1>
 					<p className="hero__desc">A passionate <strong>Software Developer</strong> located in Melbourne, Australia with experience working in <strong>front-end mobile app development </strong> as well as <strong>Front-end</strong> and <strong>Full Stack Websites/Applications</strong></p>
