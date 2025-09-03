@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import './styles/App.css';
+import Projects from './components/Projects';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Hero />
         <About />
         <Featured />
+        <Projects />
         <Contact />
         <Footer />
       </body>
