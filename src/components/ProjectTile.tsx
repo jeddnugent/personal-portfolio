@@ -18,7 +18,7 @@ function ProjectTile(props: {
 				<p className="project-tile__desc">
 					{props.projectDesc}
 				</p>
-				<a href={props.projectLink} className="btn">Website</a>
+				<a href={props.projectLink} target="_blank" className="btn">Website</a>
 			</div>
 		</>
 	);
