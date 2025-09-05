@@ -13,9 +13,9 @@ function About() {
 				<div id="about" className="about container section">
 					<div className="about__content">
 						<h2 className="about__title">About</h2>
-						<p className="about__desc">Hello there! My name is Jedd. I am a Software Developer based in Melborune, Australia with 2 years experience in mobile app development and currently working as a freelance web developer and a BSc of Computer Science.</p>
-						<p className="about__desc">After completing long term personal goal of mine and returning from an extended backpacking trip throughout Europe last year I am looking for new oppitunities, where that be front-end / full stack based or something completely new, I am always excited to learn and tackle new challanges.</p>
-						<p className="about__desc">I have developed new features for clients in cross platform C# mobile apps as well as native iOS and Android, I have introduced and implemented testing methodologies, trained up interns, identified and resolved bugs and collaborated within a team to meet project deadlines. I am a fast learner and passionate people person who will do all I can to hit the ground running in any oppitunity that comes my way.</p>
+						<p className="about__desc">Hello there! My name is Jedd. I am a Software Developer based in Melbourne, Australia with a BSc of Computer Science. I have two years experience working in mobile app development and am currently working as a freelance web developer.</p>
+						<p className="about__desc">After completing a long term personal goal of mine and backpacking throughout Europe (20+ countries) I am returning to Melbourne and am looking for new opportunities. I am open to front-end / full stack based work or something completely new, I am always excited to learn and tackle new challenges so please feel free to reach out.</p>
+						<p className="about__desc">I have developed new features for clients in cross platform C# mobile apps as well as native iOS and Android, I have introduced and implemented testing methodologies, trained up interns, identified and resolved bugs and collaborated within a team to meet project deadlines. I am a fast learner and a passionate people person who will do all I can to hit the ground running in any opportunity that comes my way.</p>
 						<hr className="about__hr" />
 						<h3 className="about__subtitle">Technologies</h3>
 						<div className="about__ul-container">
