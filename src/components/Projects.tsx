@@ -19,7 +19,7 @@ function Projects() {
 							projectTitle="Helen Yospeh Portfolio"
 							propjectId="1"
 							projectImg="/helen_website_prev.png"
-							projectDesc="Single page react website created for concert photographer Helen Yoseph. This website is intended to serve as a landing page and portfolio of her work and more dynamically and professionally display her photos in the effort to attract new clients and opportunities"
+							projectDesc="Single page react website created for concert photographer Helen Yoseph. This website is intended to serve as a landing page and portfolio of her work and more dynamically and professionally display her photos in the effort to attract new clients and opportunities. All images on the site are managed by the client and dynamically inserted via Cloudinary SDK through Axios, ensuring the long term maintainability of the site."
 							projectLink="https://helenyoseph.vercel.app"
 						/>
 					</div>
