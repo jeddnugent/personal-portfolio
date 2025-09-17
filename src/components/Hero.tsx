@@ -3,6 +3,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import profileImg from "../assets/headshot.jpeg";
 import { motion } from "framer-motion";
+import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 
 function Hero() {
 	return (
@@ -27,7 +28,19 @@ function Hero() {
 							<LinkedInIcon className="hero__social-stack__icon" />
 						</a>
 					</div>
+					<motion.div
+						animate={{ y: [0, 4, 0] }}
+						transition={{
+							duration: 1.5,
+							repeat: Infinity,
+							ease: "easeInOut",
+						}}
+						className="hero__arrow-down-wrapper"
+					>
+						<KeyboardDoubleArrowDownIcon className="hero__arrow-down" />
+					</motion.div>
 				</div>
+
 			</motion.section>
 		</>
 	);

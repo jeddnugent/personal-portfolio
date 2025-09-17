@@ -55,6 +55,11 @@
 	color: var(--clr-yellow);
 }
 
+.hero__arrow-down {
+	color: var(--clr-slate400);
+	font-size: var(--size-xl) !important;
+}
+
 /* xsmall */
 @media (min-width: 475px) {
 	.hero {
@@ -80,6 +85,10 @@
 
 	.hero__btn {
 		font-size: var(--size-base);
+	}
+
+	.hero__arrow-down {
+		font-size: var(--size-2xl) !important;
 	}
 }
 
@@ -115,6 +124,10 @@
 	.hero__social-stack__icon {
 		font-size: var(--size-4xl) !important;
 	}
+
+	.hero__arrow-down {
+		font-size: var(--size-2xl) !important;
+	}
 }
 
 /* xlarge */
@@ -142,6 +155,10 @@
 
 	.hero__btn {
 		font-size: var(--size-xl);
+	}
+
+	.hero__arrow-down {
+		font-size: var(--size-3xl) !important;
 	}
 }
 
